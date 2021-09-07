@@ -22,7 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:autofillHints="dd"
+        android:importantForAutofill="no"
         android:inputType="number"
         android:labelFor="@id/heightEditText"
         android:textAlignment="center" />
@@ -43,11 +43,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:autofillHints="testtrest"
         android:ems="10"
         android:inputType="number"
         android:labelFor="@+id/weightEditText"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        android:importantForAutofill="no" />
 
     <Button
         android:id="@+id/resultButton"
