@@ -1,0 +1,4 @@
+<resources>
+<!-- Title Value -->
+    <string name="app_name">BMICalculator</string>
+</resources>
