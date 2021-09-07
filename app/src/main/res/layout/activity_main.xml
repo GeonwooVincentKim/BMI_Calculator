@@ -10,18 +10,28 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="asdfasdfsaerwtasdgfasdv"
+        android:text="신장"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
         android:textAlignment="center"/>
 
     <TextView
+        android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="asdfasdfsaerwtasdgfasdv"
+        android:text="체중"
         android:textAlignment="center"/>
-    <TextView
+
+    <EditText
+        android:id="@+id/editTextNumber"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="asdfasdfsaerwtasdgfasdv"
+        android:ems="10"
+        android:inputType="number"
         android:textAlignment="center"/>
 
 </LinearLayout>
