@@ -4,4 +4,8 @@
     <string name="Weight">체중</string>
     <string name="Height">신장</string>
     <string name="Confirm">확인하기</string>
+    <string name="BMI_Result">23.11111</string>
+    <string name="BMI_Info">BMI : </string>
+    <string name="Result_String">결과는 : </string>
+    <string name="BMI_Result_String">과체중입니다</string>
 </resources>
