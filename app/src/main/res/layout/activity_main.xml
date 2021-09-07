@@ -9,49 +9,51 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:textSize="20sp"
-        android:textStyle="bold"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/Height"
+        android:textAlignment="center"
         android:textColor="#000"
-        android:textAlignment="center"/>
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
     <EditText
-        android:layout_marginTop="10dp"
+        android:id="@+id/heightEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="number"
-        android:textAlignment="center"
+        android:layout_marginTop="10dp"
         android:autofillHints="dd"
-        android:id="@id/editTextNumber"
-        android:labelFor="@id/editTextNumber"/>
+        android:inputType="number"
+        android:labelFor="@id/heightEditText"
+        android:textAlignment="center" />
 
     <TextView
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:layout_marginTop="30dp"
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
         android:text="@string/Weight"
+        android:textAlignment="center"
         android:textColor="#000"
-        android:textAlignment="center"/>
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
     <EditText
-        android:layout_marginTop="10dp"
-        android:id="@+id/editTextNumber"
+        android:id="@+id/weightEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:autofillHints="testtrest"
         android:ems="10"
         android:inputType="number"
-        android:textAlignment="center"
-        android:autofillHints="testtrest"/>
+        android:labelFor="@+id/weightEditText"
+        android:textAlignment="center" />
 
     <Button
-        android:layout_marginTop="50dp"
-        android:text="@string/Confirm"
+        android:id="@+id/resultButton"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/Confirm" />
 
 </LinearLayout>
