@@ -10,9 +10,11 @@
 
     <TextView
         android:textSize="20sp"
+        android:textStyle="bold"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="신장"
+        android:text="@string/Height"
+        android:textColor="#000"
         android:textAlignment="center"/>
 
     <EditText
@@ -20,15 +22,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="number"
-        android:textAlignment="center"/>
+        android:textAlignment="center"
+        android:autofillHints="dd"
+        android:id="@id/editTextNumber"
+        android:labelFor="@id/editTextNumber"/>
 
     <TextView
         android:textSize="20sp"
+        android:textStyle="bold"
         android:layout_marginTop="30dp"
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="체중"
+        android:text="@string/Weight"
+        android:textColor="#000"
         android:textAlignment="center"/>
 
     <EditText
@@ -38,11 +45,12 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="number"
-        android:textAlignment="center"/>
+        android:textAlignment="center"
+        android:autofillHints="testtrest"/>
 
     <Button
         android:layout_marginTop="50dp"
-        android:text="확인하기"
+        android:text="@string/Confirm"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 

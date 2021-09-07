@@ -1,4 +1,7 @@
 <resources>
 <!-- Title Value -->
     <string name="app_name">BMICalculator</string>
+    <string name="Weight">체중</string>
+    <string name="Height">신장</string>
+    <string name="Confirm">확인하기</string>
 </resources>
